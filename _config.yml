@@ -6,7 +6,7 @@ email: yemingjun1781@gmail.com
 description: "I have dream"
 keyword: ""
 url: "http://yemingjun123.github.io"              # your host, for absolute URL
-baseurl: "/huxblog-boilerplate"         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
@@ -25,7 +25,7 @@ facebook_username:  huxpro
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
@@ -47,7 +47,7 @@ kramdown:
 
 
 # Disqus settings
-#disqus_username: _your_disqus_short_name_
+#disqus_username: ScottBlog
 
 # Duoshuo settings
 duoshuo_username: huxblog
@@ -99,4 +99,3 @@ friends: [
     }
 ]
 
-theme: jekyll-theme-cayman
