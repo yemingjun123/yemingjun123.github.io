@@ -1,10 +1,10 @@
 # Site settings
-title: core code
-SEOTitle: Scott博客 | Scott Blog
+title: Scott Blog
+SEOTitle: core code
 header-img: img/home-bg-o.jpg
 email: yemingjun1781@gmail.com
 description: "I have dream"
-keyword: ""
+keyword: "yemingjun123,叶明君"
 url: "http://yemingjun123.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -12,11 +12,11 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
+#weibo_username:     huxpro
+#zhihu_username:     huxpro
 github_username:    yemingjun123
 #twitter_username:  huxpro
-facebook_username:  huxpro
+#facebook_username:  huxpro
 
 
 
@@ -47,10 +47,10 @@ kramdown:
 
 
 # Disqus settings
-#disqus_username: ScottBlog
+disqus_username: ScottBlog
 
 # Duoshuo settings
-duoshuo_username: huxblog
+#duoshuo_username: huxblog
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
