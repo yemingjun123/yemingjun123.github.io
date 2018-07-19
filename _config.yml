@@ -1,9 +1,9 @@
 # Site settings
-title: Scott lz
-SEOTitle: 码码代码
+title: Scott
+SEOTitle: yemingjun.io
 header-img: img/home-bg-o.jpg
 email: yemingjun1781@gmail.com
-description: "wowowoowowowowowowow"
+description: "李时珍的皮"
 keyword: "yemingjun123,叶明君"
 url: "http://yemingjun123.github.io"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
@@ -42,7 +42,7 @@ gems: [jekyll-paginate]
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+input: GFM                            # use Github Flavored Markdown !important
 
 
 
@@ -81,18 +81,18 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 # Friends
 friends: [
-    {
-        title: "Frank",
-        href: "#"
-    },{
-        title: "Ryan",
-        href: "#"
-    },{
-        title: "Yumiko",
-        href: "#"
-    },{
-        title: "Carrie",
-        href: "#"
-    }
+    # {
+    #     title: "Frank",
+    #     href: "#"
+    # },{
+    #     title: "Ryan",
+    #     href: "#"
+    # },{
+    #     title: "Yumiko",
+    #     href: "#"
+    # },{
+    #     title: "Carrie",
+    #     href: "#"
+    # }
 ]
 
