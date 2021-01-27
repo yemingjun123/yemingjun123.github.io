@@ -94,26 +94,21 @@
   <footer class="">
 
     <div class="ios donwloadbox hide_important">
-      <div class="tableCell">
-        <a href="javascript:iosDownLoadApp();" class="  ">下载「招商永隆托管」APP <i class="downloadimg"></i></a>
+      <div class="tableCell iosBtn">
+        <a class="  ">下载「招商永隆托管」APP <i class="downloadimg"></i></a>
       </div>
 
     </div>
     <div class="android donwloadbox">
-      <div class="tableCell">
-        <a href="javascript:AndWLBDownLoadApp();" class="  ">招商永隆银行官网</a> <i class="downloadimg"></i>
+      <div class="tableCell androidBtn">
+        <a class="  ">招商永隆银行官网</a> <i class="downloadimg"></i>
       </div>
-      <div class="tableCell">
-        <a href="javascript:AndGoogleDownLoadApp();" class="  ">Google Play</a> <i class="downloadimg"></i>
+      <div class="tableCell googleBtn">
+        <a class="  ">Google Play</a> <i class="downloadimg"></i>
       </div>
     </div>
-
-
-
   </footer>
 </body>
-
-
 
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/onloadimg.js"></script>
@@ -122,6 +117,19 @@
 <script type="text/javascript">
 
   window.onload = function () {
+
+    $(".iosBtn").on("click", function() {
+      iosDownLoadApp();
+    });
+
+    //给退出按钮添加单击事件
+    $(".androidBtn").on("click", function() {
+      AndWLBDownLoadApp();
+    });
+
+    $(".googleBtn").on('click', function() {
+      AndGoogleDownLoadApp();
+    });
 
     if (isIOs()) {
       $(".ios").removeClass("hide_important")
